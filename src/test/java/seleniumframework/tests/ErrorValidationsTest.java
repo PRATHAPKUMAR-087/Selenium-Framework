@@ -16,7 +16,7 @@ import seleniumframework.pageobjects.ProductCatalogue;
 public class ErrorValidationsTest extends BaseTest {
 
     /**
-     * Test for validating login error messages.
+     * Test for validating login error messages by kpk.
      */
     @Test(groups = {"ErrorHandling"}, retryAnalyzer = Retry.class)
     public void loginErrorValidation() throws IOException, InterruptedException {
